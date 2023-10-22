@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 796px) {
+  .header_area {
+    width: 100%;
+    padding: 45px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pc_icon {
+    max-width: 250px;
+  }
+  .sp_icon {
+    display: none;
+  }
+  .header_menu {
+    display: flex;
+    gap: 20px;
+  }
+  .welfare_menu {
+    background-color: #d9d9d9;
+    margin: 100px 30px 0 0;
+    border-radius: 0 15px 15px 0;
+  }
+  .welfare_circle {
+    border-radius: 300px;
+  }
+
+  .welfare_icon {
+
+  }
+
+}
+
+@media screen and (max-width: 795px) {
+  .sp_icon {
+
+  }
+  .pc_icon {
+    display: none;
+  }
+}
